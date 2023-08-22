@@ -1,0 +1,211 @@
+@charset "utf-";
+*{
+    color: #333333;
+}
+.back-color{
+    background-color: #ffffff;
+}
+.main-color{
+    background-color: #ff5a01;
+    color: #ffffff;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+    background-color: blanchedalmond;
+    position: relative;
+}
+#popWrap{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    border: 1px solid black;
+    border-radius: 30px;
+    z-index: 999;
+}
+#popTitle{
+    text-align: center;
+    border-bottom: 1px solid gray;
+}
+#popConts{
+    padding: 10px 20px;
+}
+#popWrap > button{
+    display: block;
+    margin: 20px auto;
+    padding: 5px 10px;
+}
+
+
+
+#wrap{
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+}
+#areaA{
+    width: 200px;
+    position: relative;
+    z-index: 99;
+}
+#logo > h1 > a{
+    width: 200px;
+    height: 40px;
+    background: url('../images/logo.jpg');
+    text-indent: -9999px;
+    display: block;
+}
+#navWrap{
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    display: block;
+    padding-top: 30px;
+}
+ul, li{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+nav > ul{
+    position: relative;
+}
+nav > ul > li > a{
+    display: block;
+    padding: 10px;
+    width: 130px;
+}
+nav > ul > li > a:hover{
+    background-color: #ffffff;
+    color: #ff5a01;
+    transition: 0.5s;
+}
+nav > ul > li > ul > li > a{
+    width: 130px;
+    padding: 5px 10px;
+    display: block;
+    border-top: 1px solid #ff5a01;
+    border-bottom: 1px solid #ff5a01;
+    background-color: #ffffff;
+}
+nav > ul > li > ul > li > a:hover{
+    background-color:  #ff5a01;
+    color: #ffffff;
+    transition: 0.5s;
+}
+.submenu{
+    width: 150px;
+    position: absolute;
+    left: 150px;
+    top: 0;
+    height: 200px;
+    background-color: #ff5a01;
+    display: none;
+}
+
+
+
+#areaEtc{
+    width: 800px;
+}
+#areaB{
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+}
+#areaB > div{
+    display: flex;
+}
+#areaC{
+    display: flex;
+    height: 200px;
+}
+#areaC > *{
+    width: calc(100% / 3);
+}
+#areaC p{
+    margin: 5px 0;
+    border-bottom: 1px solid gray;
+}
+#areaC h3{
+    display: inline-block;
+    border: 1px solid gray;
+    border-radius: 5px 5px 0 0;
+    margin: 5px 0 0 0;
+    padding: 5px 30px;
+}
+#areaGallery > div{
+    display: flex;
+    height: 163px;
+    justify-content: space-around;
+    align-items: center;
+}
+#areaGallery > div > *{
+    width: 80px;
+    height: 80px;
+}
+#areaGallery > div > *:hover{
+    opacity: 0.5;
+}
+#areaGallery > div > #gallery1{
+    background: url(../images/gallery1.jpg);
+    background-size: cover;
+}
+#areaGallery > div > #gallery2{
+    background: url(../images/gallery2.jpg);
+    background-size: cover;
+}
+#areaGallery > div > #gallery3{
+    background: url(../images/gallery3.jpg);
+    background-size: cover;
+}
+#areaBanner a{
+    display: block;
+    width: 100%;
+    height: 200px;
+    background: url('../images/banner.jpg');
+    text-indent: -9999px;
+}
+
+#areaD{
+    display: flex;
+    border-top: 1px solid gray;
+}
+#logoF{
+    width: 200px;
+    height: 100px;
+}
+#logoF a{
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+    background: url("../images/logoF.jpg");
+    text-indent: -9999px;
+    margin-top: 30px;
+}
+
+#areaEtcF{
+    width: 600px;
+    height: 100px;
+    text-align: center;
+}
+#areaEtcF > div{
+    height: 50px;
+}
+#areaEtcF > div:nth-child(1){
+    display: flex;
+    justify-content: center;
+}
+#areaEtcF > div:nth-child(1) > p{
+    margin: 16px;
+}
